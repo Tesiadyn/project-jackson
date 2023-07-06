@@ -42,15 +42,15 @@ section.intro{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    // border: 1px solid green;
+    
     height: 50vh;
     
     .intro-info{
         flex-basis: 500px;
-        border: 1px solid orange;
+        
     }
     .intro-img{
-        border: 1px solid red;
+        
         flex: 0 1 300px;
         max-width: 60vw;
         min-width: 25vw;
