@@ -38,10 +38,12 @@ header nav ul a li {
 }
 
 section.intro {
+  border: 1px solid #325575;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 40px 0 100px;
   height: 50vh;
 }
 section.intro .intro-info {
@@ -50,10 +52,11 @@ section.intro .intro-info {
 section.intro .intro-img {
   flex: 0 1 300px;
   max-width: 60vw;
-  min-width: 25vw;
+  min-width: 15vw;
 }
 section.intro .intro-img img {
   width: 100%;
+  height: 100%;
   border-radius: 5%;
 }
 section.intro a {
@@ -109,7 +112,8 @@ section.resume .resume-photo {
 }
 section.resume .resume-photo img {
   width: 30vw;
-  height: 60vh;
+  height: 55vh;
+  border-radius: 5%;
 }
 section.resume .resume-photo .retangle1 {
   width: 30vw;
