@@ -67,7 +67,7 @@ section.intro a {
   text-decoration: none;
 }
 section.intro a:hover {
-  transform: scale(1.2);
+  transform: scale(1.25);
 }
 
 section.abilities-area {
